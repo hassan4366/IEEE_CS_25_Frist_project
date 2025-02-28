@@ -1,0 +1,137 @@
+/* resposev */
+
+
+    /* start section-1 */
+
+    .container {
+        height: 100%;
+    }
+
+    .section-1 ,
+    .section-2 {
+        flex-direction: column;
+        margin: 0 15px;
+    }
+
+    .section-1 .info h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    
+    .section-1 .left .sub-info button {
+        background-color: #D3E97A;
+        width: 212px;
+        height: 48px;
+        padding: 0 16px 0 6px;
+    }
+
+    .format-iconCircle {
+        display: none;
+    }
+
+    .down-icon {
+        margin-left: 15px;
+        display: inline;
+    }
+
+    .section-1 .left .sub-info .cir {
+        margin-top: 0;
+
+    }
+ 
+    .section-1 .left {
+        margin-bottom: 80px;
+    }
+
+    .section-1 .right .back-img {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-1 .right .back-img img {
+       width: 450px;
+       
+    }
+
+    /* end section-1  */
+    .section-2 .card-father .left .info {
+        width: 400px;
+    }
+
+    .section-2 .card-father .left .info h1 {
+        font-size: 60px;
+        /* margin-left: 30px; */
+        margin-top: 50px;
+        font-weight: 400;
+    }
+    .section-2 .card-father .left .info p {
+        /* margin-left: 30px; */
+        margin-bottom: 60px;
+    }
+
+
+
+    .section-2 .card-father  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 90px;
+    }
+
+    .section-2 .card-father .left {
+        margin-left: 0;
+    }
+
+    .section-2 .card-father .left .card {
+        width: 500px;
+        height: 500px;
+        position: relative;
+    }
+
+    .section-2 .card-father .left .card img {
+        width: 450px;
+        position: absolute;
+        height: 440px;
+        right: 25px;
+        bottom: 0;
+        border-radius: none;
+    }
+
+    .section-2 .card-father .right {
+        width: 500px;
+        margin-top: 0;
+    }
+
+    .section-2 .card-father .right-2 {
+        margin-top: 0;
+        width: 500px;
+    }
+
+    /* end section -2 */
+
+    /* start about  */
+
+    .parent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .parent .sec-about .leftSideAbout h2 {
+        display: none;
+    }
+
+    .parent .sec-about .rightSideAbout h6  {
+        display: none;
+    }
+.image img {
+    margin-top: 20px;
+    width: 500px;
+    /* margin-left: 10px; */
+}

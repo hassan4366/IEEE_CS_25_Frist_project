@@ -1,0 +1,168 @@
+
+
+    /* start navbar */
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        top: 80px;
+        left: 0;
+        background-color: #222;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    @media (max-width: 798px) {
+        
+    }
+
+    .layout{
+        display: none;
+
+    }
+
+    #menu-toggle:checked ~ .layout {
+        display: flex;
+    }
+
+    /* end navbar */
+
+    /* start sec-about */
+
+    .parent .sec-about,
+    .parent .Capabilities-sec,
+    .parent .Experience-sec,
+    .parent .connect-sec {
+        flex-direction: column;
+        margin: 0 15px;
+
+    }
+
+    .parent .sec-about .leftSideAbout,
+    .parent .sec-about .rightSideAbout,
+    .parent .Capabilities-sec .Capabilities,
+    .parent .Capabilities-sec .Capabilities-details,
+    .parent .Experience-sec .ExperienceLeftside,
+    .parent .Experience-sec .ExperienceRightside,
+    .parent .connect-sec .connectRightside {
+        width: 100%;
+    }
+
+    .parent .sec-about .leftSideAbout h2 {
+        font-size: 57px;
+    }
+
+    .parent .sec-about .rightSideAbout h6 {
+        font-size: 24px;
+    }
+
+    .parent .sec-about .rightSideAbout p,
+    .parent .Capabilities-sec .Capabilities-details p,
+    .parent .Experience-sec .ExperienceRightside .Experience-Freelance p,
+    .parent .Experience-sec .ExperienceRightside p,
+    .parent .Experience-sec .ExperienceRightside .Experience-Freelance span {
+        font-size: 16px;
+    }
+
+    .parent .sec-about .rightSideAbout .rightSideIcons button {
+        background-color: #D3E97A;
+        width: 212px;
+        height: 48px;
+        padding: 0 16px 0 6px;
+    }
+
+    .parent .sec-about .rightSideAbout .rightSideIcons .format-iconCircle {
+        display: none;
+    }
+
+    .parent .sec-about .rightSideAbout .rightSideIcons .down-icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-left: 2px;
+        border-radius: 50%;
+    }
+
+    .parent .sec-about .rightSideAbout .rightSideIcons .format-icons {
+        width: 48px;
+        height: 48px;
+    }
+
+    /* end sec-about */
+
+
+    /* start img-about */
+
+    .parent .img-about {
+
+        width: 90%;
+        margin: 20px auto;
+        border-radius: 8px;
+
+    }
+
+    .parent .img-about img {
+        margin-top: 20px;
+        width: 100px;
+        height: 300px;
+    }
+
+    /* end img-about */
+
+    /* start Capabilities-sec */
+
+    .parent .Capabilities-sec .Capabilities h2,
+    .parent .Experience-sec .ExperienceLeftside h2{
+        font-size: 43px;
+        margin-bottom: -40px;
+    }
+
+    .parent .Capabilities-sec .Capabilities-details button {
+        padding: 16px 24px;
+        margin: 20px 10px 10px 0;
+    }
+
+    /* end Capabilities-sec */
+
+
+    /* start Experience-sec */
+    .parent .Experience-sec .ExperienceRightside .Experience-Freelance {
+        flex-direction: column;
+    }
+
+    .parent .Experience-sec .ExperienceRightside .Experience-Freelance h6 {
+        font-size: 18px;
+    }
+
+    /* end Experience-sec */
+
+    /* start connect section */
+    .parent .connect-sec .connectLeftside h2 {
+        font-size: 43px;
+    }
+    .parent .connect-sec .connectLeftside{
+        width: 80%;
+    }
+    .parent .connect-sec .connectLeftside p{
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    footer{
+        display: none;
+    }
+    .parent .foot{
+        padding: 20px;
+        display: block;
+    }
+
+    /* end connect section */
+

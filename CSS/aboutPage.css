@@ -11,31 +11,6 @@
     box-sizing: border-box;
 }
 
-.nav {
-    background-color:#0A0A0A;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px;
-    font-family: Manrope;
-}
-
-.layout ul {
-    display: flex;
-    gap: 50px;
-}
-
-.layout ul  {
-    list-style: none;
-}
-
-.layout ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
 .parent {
     /* width: 80%; */
     /* margin: 20px auto; */
@@ -43,6 +18,46 @@
     background-color: #0A0A0A;
 
 }
+
+/* start navbar */
+.parent .nav {
+    background-color:#0A0A0A;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.layout ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+
+.layout ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    display: none;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+
+
+/* end navbar */
 
 /* start sec-about */
 
@@ -99,6 +114,10 @@
     border: none;
 
 
+}
+
+.parent .sec-about .rightSideAbout .rightSideIcons .down-icon {
+    display: none;
 }
 
 .parent .sec-about .rightSideAbout .rightSideIcons .format-iconCircle {
@@ -185,7 +204,6 @@
     font-size: 16px;
     text-transform: capitalize;
 
-
 }
 
 hr {
@@ -267,7 +285,7 @@ hr {
 }
 
 .parent .connect-sec .connectLeftside {
-    width: 32%;
+    width: 28%;
     margin: 20px 0;
     display: flex;
     flex-direction: column;
@@ -318,9 +336,6 @@ footer {
     color: white;
     font-weight: 500;
     font-size: 16px;
-    
-
-
 }
 
 
@@ -369,7 +384,14 @@ form button {
     border-radius: 100px;
     border: none;
 
+
+}
+
+.parent .foot{
+    display: none;
+   color: #C7C7C7;
 }
 
 
 /* end connect section */
+

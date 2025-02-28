@@ -10,28 +10,29 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="../CSS/aboutPage.css" />
+    <link rel="stylesheet" href="../CSS/responsive.css" media="(max-width: 576px)">
   </head>
   <body>
-
-    <!-- start  navbar  -->
-    <div class="nav">
-
-      <div class="logo">
-          <img src="../images/robert garcia.png" alt="">
-      </div>
-      <div class="layout">
-          <ul>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-          </ul>
-      </div>
-
-      <!-- end navbar  -->
-
-  </div>
-
     <div class="parent">
+      <!-- start navbar -->
+      <div class="nav">
+        <div class="logo">
+          <img src="../images/robert garcia.svg" alt="" />
+        </div>
+
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+        <div class="layout">
+          <ul class="nav-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="aboutPage.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- end navbar -->
+
       <!-- start sec-about -->
       <div class="sec-about">
         <div class="leftSideAbout">
@@ -58,6 +59,10 @@
             <button>
               Download Resume<i
                 class="fa-solid fa-circle format-iconCircle"
+                style="color: #0a0a0a"
+              ></i
+              ><i
+                class="fa-solid fa-circle-arrow-down down-icon"
                 style="color: #0a0a0a"
               ></i>
             </button>
@@ -145,13 +150,14 @@
       <hr />
 
       <!-- start connect section -->
+
       <div class="connect-sec">
         <div class="connectLeftside">
           <div class="up">
             <h2>Let’s connect</h2>
             <p>
-              start connect section <a href="#">robertgarcia@gmail.com</a> For
-              more info, here’s my <a href="#">resume</a>
+              Say hello at <a href="#">robertgarcia@gmail.com</a> For more info,
+              here’s my <a href="#">resume</a>
             </p>
 
             <div class="connect-icons">
@@ -193,6 +199,8 @@
           </form>
         </div>
       </div>
+
+      <p class="foot">&copy; 2025 Robert Garcia</p>
 
       <!-- end connect section -->
     </div>

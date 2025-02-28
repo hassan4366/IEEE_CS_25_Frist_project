@@ -10,6 +10,7 @@
     font-family: "Source Sans 3", serif;
 }
 
+/* start navbar */
 .nav {
     background-color:#0A0A0A;
     height: 90px;
@@ -18,6 +19,45 @@
     justify-content: space-between;
     padding: 25px;
 }
+
+.layout ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+
+.layout ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    display: none;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+
+
+/* end navbar */
+
+/* .nav {
+    background-color:#0A0A0A;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+} */
 body {
     scroll-behavior: smooth;
     font-family: Manrope;
@@ -28,20 +68,20 @@ html {
     scroll-behavior: smooth;
 }
 
-.layout ul {
+/* .layout ul {
     display: flex;
     gap: 50px;
-}
+} */
 
-.layout ul  {
+/* .layout ul  {
     list-style: none;
-}
+} */
 
-.layout ul li a {
+/* .layout ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-}
+} */
 
 .container {
     font-family: Manrope;
@@ -287,6 +327,10 @@ font-weight: 400;
 margin-top: 30px;
 }
 
+.down-icon {
+display: none;
+}
+
 .section-2 .card-father .right-2 .buttom p {
     font-size: 16px;
     margin-bottom: 10px;
@@ -387,6 +431,10 @@ margin-top: 30px;
     font-size: 16px;
     color: #D3E97A;
     text-transform: uppercase;
+}
+
+.image {
+    display: none;
 }
 
 
@@ -508,3 +556,6 @@ form button {
 
 
 /* end connect section */
+
+
+
